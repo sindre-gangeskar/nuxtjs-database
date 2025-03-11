@@ -2,8 +2,8 @@
 	<v-app>
 		<div>
 			<NuxtRouteAnnouncer />
-			<navbar />
-			<v-container>
+			<v-container :style="{maxWidth: '1500px'}">
+				<navbar />
 				<NuxtPage />
 			</v-container>
 		</div>

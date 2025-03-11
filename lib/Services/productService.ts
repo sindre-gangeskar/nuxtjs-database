@@ -12,7 +12,7 @@ export default class ProductService {
 
 	static async getAll() {
 		try {
-			return await prisma.product.findMany();
+			return await prisma.product.findMany({ include: { category: true } });
 		} catch (error) {
 			throw error;
 		}
