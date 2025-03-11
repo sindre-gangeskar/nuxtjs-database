@@ -28,7 +28,7 @@ fetchProducts();
 						:style="{ minHeight: '200px' }"
 						:color="'blue-darken-4'"
 						:variant="'flat'"
-						class="card"
+						class="product"
 						hover
 						@mouseenter="activeCard = product.name"
 						@mouseleave="activeCard = null">
