@@ -7,7 +7,8 @@ const description = "Sindre Gangeskar's Nuxt application";
 useHead({ title, meta: [{ name: "description", content: description }] });
 
 import gsap from "gsap";
-onMounted(() => {
+onMounted(async () => {
+  await nextTick();
 	const tl = gsap.timeline();
 	const btnTl = gsap.timeline();
 

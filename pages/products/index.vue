@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted } from "vue";
+import { onMounted, nextTick } from "vue";
 import gsap from "gsap";
 import { useHead } from "#app";
 
@@ -8,7 +8,8 @@ const description = "Products Overview";
 
 useHead({ title, meta: [{ name: "description", content: description }] });
 
-onMounted(() => {
+onMounted(async () => {
+  await nextTick()
   const tl = gsap.timeline();
   const prTl = gsap.timeline();
 	tl.set(".main-wrapper > p", { x: -20, opacity: 0 });
