@@ -26,14 +26,14 @@ import GridBackground from "~/components/gridBackground.vue";
 <template>
 	<GridBackground size="1200px" gridSize="50px" :style="{ position: 'absolute', transform: 'translate(-50%, -50%)', left: '50%', top: '50%' }" />
 	<main class="mt-15 mb-16 main-wrapper px-10">
-		<p class="text-h4">Welcome to my Nuxt sandbox project</p>
-		<p class="text-h6">This is a demo project created for displaying my progress of learning Vue.js alongside Nuxt and displaying my progress and fun ideas as I come up with them here.</p>
-		<br />
+		<p class="text-h4 text-uppercase">Welcome</p>
+		<p class="text-subtitle-1">This is a demo project created for displaying my progress of learning <strong>Vue.js</strong> alongside <strong>Nuxt</strong>.</p>
 		<p class="text-subtitle-1">
-			The project currently has a basic database set up with some dummy data. The database being used is MySQL (Would love to and planning on learning <strong>PostgresSQL</strong>) and modeled utilizing the
-			<strong>prisma.schema</strong> file.
+			The project currently has a basic database structure with some dummy data. <br><br> The database being used is currently MySQL, but I want to learn <strong>PostgresSQL</strong> in the near future. <br>
+			I'm using <strong>Prisma</strong> as the ORM, which is quite incredible in my opinion. It allows for an easy and simple way of defining models and relationships thanks to the
+			<strong>prisma.schema</strong> file.<br><br>
 		</p>
-		<p class="text-subtitle-1">I chose to go with Vuetify as the UI library as it's closest to what I'm used to with JoyUI, and it's looking pretty neat out of the box!</p>
+		<p class="text-subtitle-1">I chose to go with <strong>Vuetify</strong> as the UI library / framework as it's closest to what I'm used to with <strong>Joy UI</strong>, supports utility classes and it's looking pretty neat out of the box!</p>
 	</main>
 	<section class="text-center">
 		<p class="text-h3 text-center text-primary">Tools & Frameworks</p>
