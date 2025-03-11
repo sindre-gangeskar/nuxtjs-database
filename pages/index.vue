@@ -31,7 +31,7 @@ import GridBackground from "~/components/gridBackground.vue";
 		<p class="text-subtitle-1">
 			The project currently has a basic database structure with some dummy data. <br><br> The database being used is currently MySQL, but I want to learn <strong>PostgresSQL</strong> in the near future. <br>
 			I'm using <strong>Prisma</strong> as the ORM, which is quite incredible in my opinion. It allows for an easy and simple way of defining models and relationships thanks to the
-			<strong>prisma.schema</strong> file.<br><br>
+			<strong>schema.prisma</strong> file.<br><br>
 		</p>
 		<p class="text-subtitle-1">I chose to go with <strong>Vuetify</strong> as the UI library / framework as it's closest to what I'm used to with <strong>Joy UI</strong>, supports utility classes and it's looking pretty neat out of the box!</p>
 	</main>
