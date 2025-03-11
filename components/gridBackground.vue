@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { defineProps } from "vue";
-import { useTheme } from "vuetify";
 
 const props = defineProps<{
 	size: string;
